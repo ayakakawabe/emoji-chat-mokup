@@ -58,8 +58,54 @@
                     <div>
                         <h1 class="text-3xl text-gray-700 py-1 my-4 border-b-2 border-gray-200">My slangs</h1>
                     </div>
-                    <div class="flex-1 h-full flex items-center justify-center">
-                        <p class="text-5xl text-gray-700 mb-16">coming soon ...</p>
+                    <div class="flex-2 h-auto flex flex-col items-center justify-center">
+                        <div class="flex-1 mt-4 mb-10 w-full flex justify-center">
+                            <div class="flex justify-between w-full max-w-xs mx-auto">
+                                <input type="text" placeholder="Emojis" class="flex w-full h-10 px-3 py-2 text-sm bg-white border rounded-md border-neutral-300 ring-offset-background placeholder:text-neutral-500 focus:border-neutral-300 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-neutral-400 disabled:cursor-not-allowed disabled:opacity-50" />
+                                <input type="text" placeholder="Meaning" class="ml-2 flex w-full h-10 px-3 py-2 text-sm bg-white border rounded-md border-neutral-300 ring-offset-background placeholder:text-neutral-500 focus:border-neutral-300 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-neutral-400 disabled:cursor-not-allowed disabled:opacity-50" />
+                                <button type="button" class="h-10 ml-2 inline-flex items-center justify-center px-5 py-2 text-sm font-medium tracking-wide text-white transition-colors duration-200 rounded-md bg-blue-500 hover:bg-neutral-900 focus:ring-2 focus:ring-offset-2 focus:ring-neutral-900 focus:shadow-outline focus:outline-none">
+                                    Save
+                                </button>
+                            </div>
+                        </div>
+                        <div class="flex-1 flex flex-col items-center">
+                            <h2 class="text-xl py-1 mb-4 border-b-2 border-gray-200">My slangs list</h2>
+                            <div class="">
+                                <div class="flex flex-col">
+                                    <div class="overflow-x-auto">
+                                        <div class="inline-block min-w-full">
+                                            <div class="overflow-hidden border rounded-lg">
+                                                <table class="min-w-full divide-y divide-neutral-200">
+                                                    <thead class="bg-neutral-50">
+                                                        <tr class="text-neutral-500">
+                                                            <th class="px-5 py-3 text-xs font-medium text-left uppercase">Emogis</th>
+                                                            <th class="px-5 py-3 text-xs font-medium text-left uppercase">meaning</th>
+                                                            <th class="px-5 py-3 text-xs font-medium text-right uppercase">Action</th>
+                                                        </tr>
+                                                    </thead>
+                                                    <tbody class="divide-y divide-neutral-200">
+                                                        <tr class="text-neutral-800">
+                                                            <td class="px-5 py-4 text-sm font-medium whitespace-nowrap">🥑</td>
+                                                            <td class="px-5 py-4 text-sm whitespace-nowrap">basic</td>
+                                                            <td class="px-5 py-4 text-sm font-medium text-right whitespace-nowrap">
+                                                                <a class="text-blue-600 hover:text-blue-700" href="#">Edit</a>
+                                                            </td>
+                                                        </tr>
+                                                        <tr class="text-neutral-800">
+                                                            <td class="px-5 py-4 text-sm font-medium whitespace-nowrap">💅</td>
+                                                            <td class="px-5 py-4 text-sm whitespace-nowrap">I don't care</td>
+                                                            <td class="px-5 py-4 text-sm font-medium text-right whitespace-nowrap">
+                                                                <a class="text-blue-600 hover:text-blue-700" href="#">Edit</a>
+                                                            </td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
